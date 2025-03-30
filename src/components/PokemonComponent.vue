@@ -176,7 +176,7 @@ img {
 }
 
 .card-true img {
-    transition: filter 0.3s ease-in-out; /* New transition for image */
+    transition: filter 0.3s ease-in-out; 
 }
 
 
@@ -187,10 +187,10 @@ img {
 }
 
 .card-false img {
-    transition: filter 0.3s ease-in-out; /* New transition for image */
+    transition: filter 0.3s ease-in-out; 
 }
 
 .card-false:hover img {
-    filter: grayscale(100%); /* Grayscale effect on hover */
+    filter: grayscale(100%); 
 }
 </style>
