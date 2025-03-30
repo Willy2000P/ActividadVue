@@ -172,26 +172,25 @@ img {
 }
 
 .card-true {
-    transition: 0.3s ease-in-out; 
     cursor: pointer;
 }
 
-.card-true:hover {
-    box-shadow: 10px 5px 5px rgb(173, 173, 173);
-    transform: scale(1.1);
-    box-shadow: 0 0 15px rgba(0, 255, 0, 0.5);
+.card-true img {
+    transition: filter 0.3s ease-in-out; /* New transition for image */
 }
+
 
 
 .card-false {
-    transition: 0.3s ease-in-out;
     background-color: lightgray;
     cursor: not-allowed;
 }
-.card-false:hover {
-    background-color: orange; 
-    opacity: 0.5; 
-    transform: scale(0.9); 
-   
+
+.card-false img {
+    transition: filter 0.3s ease-in-out; /* New transition for image */
+}
+
+.card-false:hover img {
+    filter: grayscale(100%); /* Grayscale effect on hover */
 }
 </style>
